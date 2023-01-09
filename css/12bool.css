@@ -303,6 +303,7 @@
 	flex-wrap: wrap;
 	flex-direction: row;
 	align-items: stretch;
+	gap: 1rem;
 }
 
 [class*="col-"] {
