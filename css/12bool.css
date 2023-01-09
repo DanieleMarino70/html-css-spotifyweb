@@ -294,7 +294,7 @@
 /* CONTAINER & ROW */
 
 .container {
-	max-width: 1170px;
+	max-width: 1600px;
 	margin: 0 auto;
 }
 
@@ -310,6 +310,10 @@
 }
 
 /* utils */
+.txt-al-cen{
+	text-align: center;
+}
+
 .circle{
 	width: 1.5rem;
 	height: 1.5rem;
@@ -352,7 +356,7 @@
 
 .col-2 {
 	flex-basis: calc((100% / 12) * 2);
-	max-width: calc((100% / 12) * 2);
+	max-width: calc((100% / 12) * 2 - 1rem);
 }
 
 .col-3 {

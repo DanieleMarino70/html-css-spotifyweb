@@ -80,6 +80,8 @@ header{
 /* main */
 .main-content{
 	padding-top: 6rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 
 .generic-titles{
@@ -88,4 +90,9 @@ header{
 	justify-content: center;
 	gap: 1rem;
 	color: #a3a3a3;
+}
+
+.row.recently-pl{
+	gap: 1rem;
+	justify-content: space-between;
 }
