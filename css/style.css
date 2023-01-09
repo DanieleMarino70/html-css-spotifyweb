@@ -81,3 +81,11 @@ header{
 .main-content{
 	padding-top: 6rem;
 }
+
+.generic-titles{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 1rem;
+	color: #a3a3a3;
+}

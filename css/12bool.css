@@ -276,9 +276,19 @@
 	display: none;
 }
 
+/* FLEX DIRECTION */
+.fl-dr-col{
+	flex-direction: column;
+}
+
 /* VERTICAL ALIGNS */
 .vertical-align-md{
 	vertical-align: middle;
+}
+
+/* ALIGN-SELF */
+.al-self-ctn{
+	align-self: center;
 }
 
 /* CONTAINER & ROW */
@@ -320,6 +330,11 @@
 	border-radius: 25px;
 	padding: 0.8rem;
 	width: 16rem;
+}
+
+.dash{
+	width: 2rem;
+	border: 1px solid #adff2f;
 }
 
 /* COL */
