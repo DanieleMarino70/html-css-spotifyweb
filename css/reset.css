@@ -24,3 +24,7 @@ video {
 ul{
 	list-style: none;
 }
+
+b{
+	font-weight: bold;
+}

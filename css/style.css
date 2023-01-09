@@ -1,6 +1,7 @@
 /* GENERAL */
 body{
 	height: 100vh;
+	font-family: 'Montserrat', Arial;
 	/* debug */
 }
 
@@ -25,6 +26,7 @@ aside{
 }
 
 main{
+	
 	/* debug */
 	height: 100%;
 	width: 100%;
@@ -33,6 +35,9 @@ main{
 header{
 	height: 6rem;
 	background-color: rgba(0,0,0,0.5);
+	position: fixed;
+	width: calc(100% - 14rem);
+	text-align: end;
 }
 
 
@@ -70,4 +75,9 @@ header{
 
 .download-app{
 	border-bottom: 2px solid currentColor;
+}
+
+/* main */
+.main-content{
+	padding-top: 6rem;
 }
