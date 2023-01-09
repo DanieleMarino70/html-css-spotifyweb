@@ -13,6 +13,9 @@ h2,h3{
 footer{
 	height: 6rem;
 	background-color: #282828;
+	z-index: 1;
+	position: fixed;
+	width: 100%;
 }
 
 aside{
@@ -26,10 +29,8 @@ aside{
 }
 
 main{
-	
-	/* debug */
-	height: 100%;
-	width: 100%;
+	overflow: auto;
+	width: calc(100% - 14rem);
 }
 
 header{
@@ -58,6 +59,7 @@ header{
 
 .playlist{
 	min-height: 5rem;
+	overflow: auto;
 }
 
 .playlist > .create-pl > div:first-of-type{
