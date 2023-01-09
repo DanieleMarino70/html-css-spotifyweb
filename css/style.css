@@ -1,0 +1,73 @@
+/* GENERAL */
+body{
+	height: 100vh;
+	/* debug */
+}
+
+
+h2,h3{
+	color: white;
+}
+
+footer{
+	height: 6rem;
+	background-color: #282828;
+}
+
+aside{
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	padding: 1rem;
+	color: #a3a3a3;
+	min-width: 14rem;
+	background-color: #000000;
+}
+
+main{
+	/* debug */
+	height: 100%;
+	width: 100%;
+}
+
+header{
+	height: 6rem;
+	background-color: rgba(0,0,0,0.5);
+}
+
+
+/* TOP-CONTENT */
+.top-content{
+	height: calc(100% - 6rem);
+	background-color: #141922;
+}
+
+/* aside */
+.logo > img:first-child{
+	width: 10rem;
+}
+
+.sidebar-explorer > div > img:first-child{
+	width: 2rem;
+}
+
+.playlist{
+	min-height: 5rem;
+}
+
+.playlist > .create-pl > div:first-of-type{
+	font-size: 3rem;
+}
+
+.profile{
+	margin-top: auto;
+	font-size: 1rem;
+}
+
+.download-app > img:first-child{
+	width: 1rem;
+}
+
+.download-app{
+	border-bottom: 2px solid currentColor;
+}
