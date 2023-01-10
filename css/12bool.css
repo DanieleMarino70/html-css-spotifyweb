@@ -320,6 +320,14 @@
 	text-align: center;
 }
 
+.little-circle{
+	position: absolute;
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+	background-color: white;
+}
+
 .circle{
 	width: 1.5rem;
 	height: 1.5rem;

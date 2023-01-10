@@ -165,6 +165,11 @@ footer{
 	
 }
 
+
+.special-play:hover{
+	transform: scale(1.1);
+}
+
 .footer-bar{
 	display: flex;
 	justify-content: space-between;
@@ -213,7 +218,25 @@ footer{
 }
 
 .progress{
+	position: relative;
 	width: 25%;
 	height: 100%;
 	background-color: #cecece;
 }
+
+.progress-bar:hover .progress,
+.audio-progress-bar:hover .progress{
+	background-color: #adff2f;
+}
+.progress-bar:hover .progress > .little-circle.time,
+.audio-progress-bar:hover .progress > .little-circle.audio{
+	display:block;
+}
+
+.little-circle.time,
+.little-circle.audio{
+	display: none;
+	top: calc(50% - 0.5rem);
+	right: calc(0% - 0.5rem);
+}
+
