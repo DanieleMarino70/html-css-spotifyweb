@@ -25,40 +25,46 @@
 				<img src="./img/logo.svg" alt="">
 			</div>
 
-			<div class="sidebar-explorer">
+			<nav class="sidebar-explorer">
 				<div class="home">
-					<img src="./img/home.svg" alt="" class="vertical-align-md">
-					<div class="vertical-align-md d-inline-block">Home</div>
+					<a href="#home">
+						<img src="./img/home.svg" alt="" class="vertical-align-md">
+						<div class="vertical-align-md d-inline-block">Home</div>
+					</a>
 				</div>
 				<div class="find">
-					<img src="/img/search.svg" alt="" class="vertical-align-md">
-					<div class="vertical-align-md d-inline-block">Cerca</div>
+					<a href="#find">
+						<img src="./img/search.svg" alt="" class="vertical-align-md">
+						<div class="vertical-align-md d-inline-block">Cerca</div>
+					</a>
 				</div>
 				<div class="library">
-					<img src="./img/libreria.svg" alt="" class="vertical-align-md">
-					<div class="vertical-align-md d-inline-block">La tua libreria</div>
+					<a href="#library">
+						<img src="./img/libreria.svg" alt="" class="vertical-align-md">
+						<div class="vertical-align-md d-inline-block">La tua libreria</div>
+					</a>
 				</div>
-			</div>
+			</nav>
 
 
-			<div class="playlist">
-				<h3><b>PLAYLIST</b></h3>
+			<nav class="playlist">
+				<h3>PLAYLIST</h3>
 				<div class="create-pl">
-					<div class="d-inline-block vertical-align-md"><i class="fa-solid fa-square-plus"></i></div>
-					<div class="d-inline-block">Crea Playlist</div>
+					<div class="d-inline-block vertical-align-md"><a href="#"><i class="fa-solid fa-square-plus"></i></a></div>
+					<div class="d-inline-block"><a href="#">Crea Playlist</a></div>
 				</div>
 				<ul>
-					<li>Nome Playlist</li>
-					<li>Nome Playlist</li>
-					<li>Nome Playlist</li>
-					<li>Nome Playlist</li>
-					<li>Nome Playlist</li>
-					<li>Nome Playlist</li>
-					<li>Nome Playlist</li>
+					<li class="mt1 mb1"><a href="#">Nome Playlist</a></li>
+					<li class="mt1 mb1"><a href="#">Nome Playlist</a></li>
+					<li class="mt1 mb1"><a href="#">Nome Playlist</a></li>
+					<li class="mt1 mb1"><a href="#">Nome Playlist</a></li>
+					<li class="mt1 mb1"><a href="#">Nome Playlist</a></li>
+					<li class="mt1 mb1"><a href="#">Nome Playlist</a></li>
+					<li class="mt1 mb1"><a href="#">Nome Playlist</a></li>
 				</ul>
-			</div>
+			</nav>
 
-			<div class="profile">
+			<nav class="profile">
 				<div class="download-app">
 					<img src="./img/download.svg" alt="" class="vertical-align-md">
 					<div class="d-inline-block">Installa app</div>
@@ -69,7 +75,8 @@
 					</div>
 					<h3 class="profile-name d-inline-block vertical-align-md">John Doe</h3>
 				</div>
-			</div>
+			</nav>
+
 		</aside>
 
 
@@ -80,21 +87,25 @@
 				<button class="btn primary mt2 mr3">EFFETTUA L'UPGRADE</button>
 			</header>
 			<div class="main-content">
-				<ul class="generic-titles mt1 mb2">
-					<li class="d-flex fl-dr-col">
-						<a href="#">IN EVIDENZA</a>
-						<div class="dash al-self-ctn"></div>
-					</li>
-					<li><a href="#">PODCAST</a></li>
-					<li><a href="#">CLASSIFICHE</a></li>
-					<li><a href="#">GENERI E MOOD</a></li>
-					<li><a href="#">NUOVE USCITE</a></li>
-					<li><a href="#">SCOPRI</a></li>
-				</ul>
+
+				<nav>
+					<ul class="generic-titles mt1 mb2">
+						<li class="d-flex fl-dr-col">
+							<a href="#">IN EVIDENZA</a>
+							<div class="dash al-self-ctn"></div>
+						</li>
+						<li><a href="#">PODCAST</a></li>
+						<li><a href="#">CLASSIFICHE</a></li>
+						<li><a href="#">GENERI E MOOD</a></li>
+						<li><a href="#">NUOVE USCITE</a></li>
+						<li><a href="#">SCOPRI</a></li>
+					</ul>
+				</nav>
+				
 
 
 				<div class="container">
-					<h2 class="mb2 ft-size2"><b>Recently Played</b></h2>
+					<h2 class="mb2 ft-size2">Recently Played</h2>
 					<div class="row recently-pl mb3">
 						<div class="col-2 txt-al-cen">
 							<img src="./img/metal_lifting.jpg" alt="">
@@ -129,7 +140,7 @@
 
 					</div>
 
-					<h2 class="ft-size2 mb1"><b>Creato per John Doe</b></h2>
+					<h2 class="ft-size2 mb1">Creato per John Doe</h2>
 					<h4 class="mb2">Più ascolti, più accurati saranno i suggerimenti.</h4>
 
 					<div class="row suggested-pl mb3">
@@ -143,7 +154,7 @@
 						</div>
 					</div>
 
-					<h2 class="ft-size2 mb1"><b>Artisti più popolari</b></h2>
+					<h2 class="ft-size2 mb1">Artisti più popolari</h2>
 					<h4 class="mb2">Più ascolti, più accurati saranno i suggerimenti.</h4>
 
 					<div class="row popular-artists mb3">
