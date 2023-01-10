@@ -2,7 +2,7 @@
 	--space-xs: 0.5rem;
 	--space-sm: 1rem;
 	--space-md: 1.5rem;
-	--space-lg: 2.5rem;
+	--space-lg: 3rem;
 	--space-xl: 5rem;
 }
 
@@ -346,9 +346,20 @@
 	width: 16rem;
 }
 
+
+
 .dash{
 	width: 2rem;
 	border: 1px solid #adff2f;
+}
+
+.overlay{
+	position: relative;
+	color: white;
+}
+/* COLOR */
+.lgrey{
+	color: #a3a3a3;
 }
 
 /* COL */
