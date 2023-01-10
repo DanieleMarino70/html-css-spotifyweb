@@ -1,6 +1,6 @@
 :root {
 	--space-xs: 0.5rem;
-	--space-sm: 1.2rem;
+	--space-sm: 1.4rem;
 	--space-md: 2rem;
 	--space-lg: 3.5rem;
 	--space-xl: 5rem;
@@ -320,6 +320,10 @@
 	height: 1.5rem;
 	border-radius: 50%;
 	background-color: #a3a3a3;
+	overflow: hidden;
+}
+.large-circle{
+	border-radius: 50%;
 	overflow: hidden;
 }
 

@@ -2,12 +2,16 @@
 body{
 	height: 100vh;
 	font-family: 'Montserrat', Arial;
+	font-weight: 500;
 	/* debug */
 }
 
 
 h2,h3{
 	color: white;
+}
+h4{
+	color: #a3a3a3;
 }
 
 footer{
@@ -94,3 +98,6 @@ header{
 	color: #a3a3a3;
 }
 
+.row.popular-artists > .col-2 > img:first-child{
+	display: block;
+}
