@@ -281,6 +281,11 @@
 	flex-direction: column;
 }
 
+/* WIDTH */
+.w100{
+	width: 100%;
+}
+
 /* VERTICAL ALIGNS */
 .vertical-align-md{
 	vertical-align: middle;
