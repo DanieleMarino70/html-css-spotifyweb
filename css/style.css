@@ -257,22 +257,28 @@ footer{
 
 
 
-/* MEDIA QUERY XS */
-@media screen and (max-width: 480px) {
+/* MEDIA QUERY SM */
+@media screen and (max-width: 600px) {
 	aside{
 		min-width: calc(var(--aside-width) - var(--aside-width)) ;
 	}
 	main{
-		width: calc(100% - 2rem);
+		width: 100%;
 	}
 	header{
-		width: calc(100% - 3rem);
+		width: calc(100% - 3.5rem);
 	}
 
 	.download-app{
 		border-bottom: none;
 	}
 
+	.audio-bar{
+		align-items: center;
+	}
+}
+
+@media screen and (max-width: 480px) {
 	.audio-bar{
 		align-items: center;
 		flex-wrap: wrap;
